@@ -23,8 +23,8 @@ title: Douglas's Network Technology Portfolio
 description: >- # this means to ignore newlines until "baseurl:"
   A portfolio documenting hands-on networking labs, troubleshooting,
   network security concepts, and Network+ coursework.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/network-portfolio"
+url: "https://dwdunning.github.io"
 
 github_username:  dwdunning
 
