@@ -22,7 +22,7 @@ This lab introduced basic Cisco IOS configuration using Packet Tracer. The goal 
 
 The lab consisted of two LANs connected by a router. Each LAN contained a switch and two hosts.
 
-![Initial Topology](../assets/images/lab02/initial-topology.png)
+![Initial Topology]({{ "/assets/images/lab02/initial-topology.png" | relative_url }})
 
 ## Completing the Addressing Table
 
@@ -35,7 +35,7 @@ The lab provided most IP addresses but left the default gateways blank. These we
 
 The PCs were configured using the **Desktop → IP Configuration** utility.
 
-![PC IP Configuration](../assets/images/lab02/ip-config.png)
+![PC IP Configuration]({{ "/assets/images/lab02/ip-config.png" | relative_url }})
 
 ## Router Configuration
 
@@ -99,7 +99,7 @@ copy running-config startup-config
 
 After troubleshooting the remaining VLAN configuration issues, the activity completed with a perfect score.
 
-![Final Score](../assets/images/lab02/final-score.png)
+![Final Score]({{ "/assets/images/lab02/final-score.png" | relative_url }})
 
 ## Reflection
 

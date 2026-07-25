@@ -21,11 +21,11 @@ The purpose of this lab was to learn how to access and navigate the Cisco IOS co
 
 The first task was to connect PC1 to switch S1 using a console cable. After selecting the console cable in Packet Tracer, I connected the RS-232 port on the PC to the Console port on the switch. Once the connection was established, I opened the Terminal application on PC1 and accessed the Cisco IOS command-line interface.
 
-![Initial Network Topology](/assets/images/lab01/initial-topology.png)
+![Initial Network Topology]({{ "/assets/images/lab01/initial-topology.png" | relative_url }})
 
 *Figure 1. Initial Packet Tracer topology showing PC1 and switch S1.*
 
-![Console Connection Established](/assets/images/lab01/console-s1.png)
+![Console Connection Established]({{ "/assets/images/lab01/console-s1.png" | relative_url }})
 
 *Figure 2. Terminal session established with switch S1 through the console connection.*
 
@@ -35,15 +35,15 @@ After accessing the CLI, I explored the Cisco IOS help system using the question
 
 I also practiced navigating between User EXEC mode (`S1>`) and Privileged EXEC mode (`S1#`). Using the `enable` command granted access to additional administrative commands and system information.
 
-![User EXEC Mode](/assets/images/lab01/user-exec.png)
+![User EXEC Mode]({{ "/assets/images/lab01/user-exec.png" | relative_url }})
 
 *Figure 3. User EXEC mode prompt displayed after connecting to the switch.*
 
-![Context-Sensitive Help](/assets/images/lab01/user-exec-help.png)
+![Context-Sensitive Help]({{ "/assets/images/lab01/user-exec-help.png" | relative_url }})
 
 *Figure 4. Using the question mark command to display available commands in User EXEC mode.*
 
-![Privileged EXEC Mode](/assets/images/lab01/privileged-help.png)
+![Privileged EXEC Mode]({{ "/assets/images/lab01/privileged-help.png" | relative_url }})
 
 *Figure 5. Privileged EXEC mode provides access to additional administrative commands.*
 
@@ -53,7 +53,7 @@ The final portion of the lab focused on using context-sensitive help to configur
 
 After providing the correct time, day, month, and year values, I verified the configuration using the `show clock` command.
 
-![Clock Configuration](/assets/images/lab01/clock-set.png)
+![Clock Configuration]({{ "/assets/images/lab01/clock-set.png" | relative_url }})
 
 *Figure 6. Setting and verifying the switch clock using IOS commands.*
 
@@ -69,7 +69,7 @@ To resolve command errors, I used Cisco IOS context-sensitive help by entering a
 
 The lab was completed successfully. I established a console connection to the switch, navigated the Cisco IOS command-line interface, explored User EXEC and Privileged EXEC modes, used context-sensitive help and tab completion, configured the system clock, and verified the configuration using the `show clock` command.
 
-![Assessment Results](/assets/images/lab01/assessment.png)
+![Assessment Results]({{ "/assets/images/lab01/assessment.png" | relative_url }})
 
 *Figure 7. Packet Tracer assessment confirming successful completion of the activity.*
 
