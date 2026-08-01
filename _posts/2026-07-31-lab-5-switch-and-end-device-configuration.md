@@ -38,7 +38,7 @@ The lab consisted of:
 
 The switches were connected together, with one PC attached to each switch.
 
-![Lab topology.]({{ site.baseurl }}/assets/images/lab5/lab.png)
+![Lab topology.]({{ site.baseurl }}/assets/images/lab05/lab.png)
 
 ---
 
@@ -77,7 +77,7 @@ After configuring both switches and assigning static IP addresses to the PCs, al
 
 ### Final Score: 98/98 (100%)
 
-![Lab results.]({{ site.baseurl }}/assets/images/lab5/results.png)
+![Lab results.]({{ site.baseurl }}/assets/images/lab05/results.png)
 
 ---
 
