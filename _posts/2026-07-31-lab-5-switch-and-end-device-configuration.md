@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cisco Packet Tracer Lab 5: Basic Switch and End Device Configuration"
+title: "Packet Tracer Lab 5: Basic Switch and End Device Configuration"
 date: 2026-07-31
 categories: [networking, cisco, packet-tracer]
 tags: [Network+, Cisco, Packet Tracer, Switches, IPv4, VLAN]
