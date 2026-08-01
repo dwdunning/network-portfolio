@@ -43,7 +43,7 @@ The default configuration revealed several useful pieces of information about th
 ### Default Hardware Configuration
 
 | Item | Value |
-|------|------:|
+| ---- | ----: |
 | Hostname | Router |
 | Gigabit Ethernet Interfaces | 2 |
 | Fast Ethernet Interfaces | 4 |

@@ -6,13 +6,11 @@ categories: [networking, cisco, packet-tracer]
 tags: [Network+, Cisco, Packet Tracer, Switches, IPv4, VLAN]
 ---
 
-# Cisco Packet Tracer Lab 5: Basic Switch and End Device Configuration
-
 *Continuing my hands-on networking practice for CompTIA Network+ and Cisco networking fundamentals.*
 
 ## Objective
 
-This lab focused on configuring two Cisco switches and two end devices to create a functioning local area network (LAN). Unlike my previous switch configuration lab, this exercise required using a **console connection** to access each switch, simulating the initial setup of a new switch before remote management is available.
+This lab focused on configuring two Cisco switches and two end devices to create a functioning local area network (LAN). Unlike my previous switch configuration lab, this exercise required using a console connection to access each switch, simulating the initial setup of a new switch before remote management was available.
 
 The objectives included:
 
@@ -31,16 +29,16 @@ The objectives included:
 
 The lab consisted of:
 
-- Two Cisco Catalyst 2960 switches
+- Two Cisco Catalyst 2960 switches:
   - Room-145
   - Room-146
-- Two PCs
+- Two PCs:
   - Manager
   - Reception
 
 The switches were connected together, with one PC attached to each switch.
 
-![Lab topology](/assets/images/lab5-topology.png)
+![Lab topology](/assets/images/lab5/lab.png)
 
 ---
 
@@ -59,17 +57,17 @@ Configuration included:
 - Assigning a management IP address to VLAN 1
 - Saving the running configuration to startup-config
 
-Each PC received a static IPv4 address based on the addressing table provided in the lab.
+Each PC received a static IPv4 address according to the addressing table provided in the lab.
 
 ---
 
 ## Challenge Encountered
 
-This lab intentionally disabled direct access to the switches' configuration interfaces. At first, clicking on the switches produced a message stating that the interface was locked, which made it seem like something was wrong with the activity.
+Unlike previous Packet Tracer labs, the switches could not be accessed directly. Clicking on a switch displayed a message indicating that the interface was locked. This initially appeared to be a problem with the activity.
 
-The solution was to connect a **console cable** from a PC to each switch and use the **Terminal** application to access the Cisco IOS command-line interface.
+The solution was to connect a console cable from a PC to each switch and use the **Terminal** application to access the Cisco IOS CLI. This mirrors how new Cisco switches are configured before a management IP address has been assigned.
 
-This was a valuable lesson because it reflects how brand-new Cisco switches are configured in real environments before network management is available.
+Working through this issue reinforced the importance of understanding not only the configuration commands but also the different methods used to access network devices.
 
 ---
 
@@ -77,9 +75,9 @@ This was a valuable lesson because it reflects how brand-new Cisco switches are 
 
 After configuring both switches and assigning static IP addresses to the PCs, all Packet Tracer assessment items and connectivity tests passed successfully.
 
-**Final Score: 98/98 (100%)**
+### Final Score: 98/98 (100%)
 
-![Lab results](/assets/images/lab5-results.png)
+![Lab results](/assets/images/lab5/results.png)
 
 ---
 
@@ -93,14 +91,14 @@ This lab reinforced several networking concepts:
 - Static IPv4 addressing
 - Password security best practices
 - Saving configurations to non-volatile memory (NVRAM)
-- Verifying connectivity between hosts
+- Verifying end-to-end connectivity between hosts
 
-The biggest takeaway was understanding why the **console port** exists. Previous labs allowed direct access to the switch CLI, but this exercise demonstrated the process used to configure a new switch before it has a management IP address.
+The biggest takeaway was understanding the purpose of the console port. Previous labs allowed direct access to the switch CLI, but this exercise demonstrated the process used to configure a new switch before it can be managed over the network.
 
 ---
 
 ## Reflection
 
-Each Packet Tracer lab builds on the previous one. This exercise expanded beyond basic switch configuration by introducing console-based management, making the experience feel much closer to configuring real Cisco hardware.
+Each Packet Tracer lab builds on the previous one. This exercise expanded beyond basic switch configuration by introducing console-based management, making the experience much closer to configuring real Cisco hardware.
 
-I also spent some time troubleshooting why the switches appeared to be "locked." Figuring out that the lab required a console connection was a useful reminder that understanding how to access a device is just as important as knowing which commands to enter. That troubleshooting process ended up being one of the most valuable parts of the exercise.
+Troubleshooting the locked interfaces turned out to be one of the most valuable parts of the lab. Once I realized the activity expected console access instead of direct CLI access, the rest of the configuration process made much more sense. It was a good reminder that successful network administration depends on understanding both device configuration and the methods used to access those devices.
