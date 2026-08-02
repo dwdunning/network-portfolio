@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Packet Tracer Lab 07: Connect a Wired and Wireless LAN"
+title: "Packet Tracer Lab 07 - Connect a Wired and Wireless LAN"
 date: 2026-08-02
 categories: [Cisco, Packet Tracer, Networking]
 tags: [packet tracer, cisco, networking, lan, wan, cabling, network+, ccna]
