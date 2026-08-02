@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Packet Tracer Lab 2 - Basic Device Configuration"
+title: "Packet Tracer Lab 02 - Basic Device Configuration"
 date: 2026-07-25
 categories: [Networking, Cisco, Packet Tracer]
 ---

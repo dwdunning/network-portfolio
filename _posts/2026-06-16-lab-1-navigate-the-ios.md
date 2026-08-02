@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Packet Tracer Lab 1 - Navigate the IOS"
+title: "Packet Tracer Lab 01 - Navigate the IOS"
 date: 2026-06-15
 categories: network-plus labs
 ---
