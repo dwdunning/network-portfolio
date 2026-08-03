@@ -2,11 +2,9 @@
 layout: post
 title: "Packet Tracer Lab 02 - Basic Device Configuration"
 date: 2026-07-25
-categories: [Networking, Cisco, Packet Tracer]
-categories: [module-11]
+categories: [Networking, Cisco, Packet Tracer, Network-plus, Labs, Module-11-Network-Topologies]
 ---
 
-# Packet Tracer Lab 2 - Basic Device Configuration
 
 This lab introduced basic Cisco IOS configuration using Packet Tracer. The goal was to configure a router, a switch, and several hosts to establish full IPv4 and IPv6 connectivity between two LANs.
 
@@ -29,10 +27,10 @@ The lab consisted of two LANs connected by a router. Each LAN contained a switch
 
 The lab provided most IP addresses but left the default gateways blank. These were determined from the router interfaces.
 
-| Network | IPv4 Gateway | IPv6 Gateway |
-|---------|--------------|--------------|
-| 128.107.20.0/24 | 128.107.20.1 | FE80::1 |
-| 128.107.30.0/24 | 128.107.30.1 | FE80::1 |
+| Network         | IPv4 Gateway | IPv6 Gateway |
+|-----------------|--------------|--------------|
+| 128.107.20.0/24 | 128.107.20.1 |    FE80::1   |
+| 128.107.30.0/24 | 128.107.30.1 |    FE80::1   |
 
 The PCs were configured using the **Desktop → IP Configuration** utility.
 

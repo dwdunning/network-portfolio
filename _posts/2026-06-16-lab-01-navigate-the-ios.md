@@ -2,15 +2,12 @@
 layout: post
 title: "Packet Tracer Lab 01 - Navigate the IOS"
 date: 2026-06-15
-categories: network-plus labs
-categories: [module-11]
+categories: [Network-plus, Labs, Module-11-Network-Topologies]
 ---
-
 
 ## Objective
 
 The purpose of this lab was to learn how to access and navigate the Cisco IOS command-line interface. I explored different IOS operating modes, practiced using built-in help features, and configured the switch clock while becoming familiar with common administrative commands.
-
 
 ## Tools Used
 
@@ -73,7 +70,6 @@ The lab was completed successfully. I established a console connection to the sw
 ![Assessment Results]({{ "/assets/images/lab01/assessment.png" | relative_url }})
 
 *Figure 7. Packet Tracer assessment confirming successful completion of the activity.*
-
 
 ## What I Learned
 

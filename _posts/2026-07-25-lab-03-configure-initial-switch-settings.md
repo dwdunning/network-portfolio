@@ -2,12 +2,9 @@
 layout: post
 title: "Packet Tracer Lab 03 - Configure Initial Switch Settings"
 date: 2026-07-25
-categories: [Cisco, Packet Tracer, Networking]
+categories: [Cisco, Packet Tracer, Networking, Module-11-Network-Topologies]
 tags: [Cisco, CCNA, Catalyst 2960, Packet Tracer, Switch Configuration]
-categories: [module-11]
 ---
-
-# Packet Tracer Lab 3 - Configure Initial Switch Settings
 
 **Course:** Cisco Networking Academy / Calbright College  
 **Device:** Cisco Catalyst 2960 Switch
@@ -163,11 +160,12 @@ After running the command, the passwords were no longer displayed in plain text.
 
 Notice that the console password and enable password now appear as **type 7 encrypted passwords**, while the enable secret continues to use a stronger one-way hash.
 
-### Verification
+Verification
 
 **If additional passwords are configured after enabling `service password-encryption`, will they appear in plain text?**
 
 No. Any passwords configured with commands that support `service password-encryption` will be stored in encrypted form rather than plain text. The `enable secret` remains protected using its own, stronger hashing mechanism.
+
 ## Step 9 - Configure a Message of the Day (MOTD) Banner
 
 To display a security notice to anyone connecting to the switch, I configured a **Message of the Day (MOTD)** banner.
@@ -180,7 +178,7 @@ S1(config)# exit
 
 The `banner motd` command displays a message before the user is prompted to log in. Cisco IOS allows the banner text to be enclosed in quotation marks or separated by a custom delimiter.
 
-### Verification
+Verification
 
 After reconnecting to the console, the switch displayed the configured banner before prompting for a password.
 
@@ -207,7 +205,7 @@ Building configuration...
 
 The `copy running-config startup-config` command copies the active configuration stored in RAM to **Non-Volatile RAM (NVRAM)**. Without this step, any configuration changes would be lost the next time the switch is restarted.
 
-### Verification
+Verification
 
 The running configuration can be saved using the full command shown above, or the abbreviated form:
 

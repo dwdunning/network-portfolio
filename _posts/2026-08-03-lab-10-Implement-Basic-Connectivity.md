@@ -2,9 +2,8 @@
 layout: post
 title: "Packet Tracer Lab 10 - Implement Basic Connectivity"
 date: 2026-08-03
-categories: [Cisco, Networking, Packet Tracer]
+categories: [Cisco, Networking, Packet Tracer, module-12]
 tags: [packet tracer, cisco, switch, vlan, ipv4, network+, lab]
-categories: [module-12]
 ---
 
 ## Overview

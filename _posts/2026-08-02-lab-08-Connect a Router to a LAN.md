@@ -2,9 +2,9 @@
 layout: post
 title: "Packet Tracer Lab 08 - Connect a Router to a LAN"
 date: 2026-08-02
-categories: [Networking, Cisco, Packet Tracer]
+categories: [Networking, Cisco, Packet Tracer, Module-11-Network-Topologies]
 tags: [Cisco, Packet Tracer, Routing, LAN, CCNA, Network+, IPv4]
-categories: [module-11]
+
 ---
 
 In this lab, I configured router interfaces to connect multiple local area networks (LANs) and verified connectivity between them. The activity focused on examining router interface information, assigning IPv4 addresses, bringing interfaces online, documenting connections with interface descriptions, and verifying the resulting configuration using Cisco IOS show commands.
