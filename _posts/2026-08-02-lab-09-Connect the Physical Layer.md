@@ -4,6 +4,7 @@ title: "Packet Tracer Lab 09 - Connect the Physical Layer"
 date: 2026-08-02
 categories: [Networking, Cisco, Packet Tracer]
 tags: [Network+, Cisco, Packet Tracer, Physical Layer, Cabling, Switching, Routing]
+categories: [module-12]
 ---
 
 

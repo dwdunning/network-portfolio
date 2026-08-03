@@ -4,6 +4,7 @@ title: "Packet Tracer Lab 03 - Configure Initial Switch Settings"
 date: 2026-07-25
 categories: [Cisco, Packet Tracer, Networking]
 tags: [Cisco, CCNA, Catalyst 2960, Packet Tracer, Switch Configuration]
+categories: [module-11]
 ---
 
 # Packet Tracer Lab 3 - Configure Initial Switch Settings

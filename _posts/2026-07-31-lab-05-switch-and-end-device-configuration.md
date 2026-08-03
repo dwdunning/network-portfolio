@@ -4,6 +4,7 @@ title: "Packet Tracer Lab 05 - Basic Switch and End Device Configuration"
 date: 2026-07-31
 categories: [networking, cisco, packet-tracer]
 tags: [Network+, Cisco, Packet Tracer, Switches, IPv4, VLAN]
+categories: [module-11]
 ---
 
 *Continuing my hands-on networking practice for CompTIA Network+ and Cisco networking fundamentals.*

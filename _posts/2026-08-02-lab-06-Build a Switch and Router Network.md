@@ -4,6 +4,7 @@ title: "Packet Tracer Lab 06 – Build a Switch and Router Network"
 date: 2026-08-02
 categories: [Networking, Cisco, Packet Tracer]
 tags: [networking, cisco, packet tracer, routing, switching, ssh]
+categories: [module-11]
 ---
 
 ## Overview

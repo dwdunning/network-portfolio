@@ -4,6 +4,7 @@ title: "Packet Tracer Lab 04 - Configure Initial Router Settings"
 date: 2026-07-31
 categories: [networking, cisco, packet-tracer]
 tags: [ccna, network+, router, cisco-ios, packet-tracer]
+categories: [module-11]
 ---
 
 ## Overview
