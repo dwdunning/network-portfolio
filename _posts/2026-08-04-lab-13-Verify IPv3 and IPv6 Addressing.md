@@ -1,20 +1,10 @@
 ---
-title: "Packet Tracer Lab 13 - Verify IPv4 and IPv6 Addressing"
+layout: post
+title: "Packet Tracer Lab 13 – Verify IPv4 and IPv6 Addressing"
 date: 2026-08-04
-categories:
-  - Networking
-  - Cisco
-  - Packet Tracer
-  - Module 13
-tags:
-  - IPv4
-  - IPv6
-  - Dual Stack
-  - Ping
-  - Tracert
-  - Packet Tracer
+categories: [Networking, Cisco, Packet Tracer, Module-13-IP-Connectivity]
+tags: [networking, cisco, packet tracer, ipv4, ipv6, dual-stack, ping, tracert]
 ---
-
 ## Overview
 
 This lab explored a dual-stack network using both IPv4 and IPv6. The objectives were to verify host addressing, test end-to-end connectivity using both protocols, and analyze the path packets take across multiple routers using `tracert`.
