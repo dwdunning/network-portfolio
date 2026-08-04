@@ -30,7 +30,7 @@ In this lab, I used the `ipconfig /all` command to troubleshoot a small office n
 
 The network consisted of four PCs connected to a wireless router, which provided internet connectivity.
 
-![Packet Tracer Topology](/assets/images/lab12/topology.png)
+![Packet Tracer network topology for the ipconfig troubleshooting lab.]({{ site.baseurl }}/assets/images/lab12/topology.png)
 
 ## Verifying the Configuration
 
@@ -48,7 +48,7 @@ The first workstation was correctly configured.
 - Subnet Mask: `255.255.255.0`
 - Default Gateway: `192.168.1.1`
 
-![PC1 ipconfig](/assets/images/lab12/pc1-ipconfig.png)
+![PC1 ipconfig output showing a valid address on the 192.168.1.0 network.]({{ site.baseurl }}/assets/images/lab12/pc1-ipconfig.png)
 
 ### PC2
 
@@ -60,7 +60,7 @@ PC2 immediately stood out because its IPv4 address belonged to a different netwo
 
 The lab specified that every workstation should be on the `192.168.1.0/24` network, making this the incorrect configuration.
 
-![PC2 ipconfig](/assets/images/lab12/pc2-ipconfig.png)
+![PC2 ipconfig output showing the incorrect 192.168.10.102 IPv4 address.]({{ site.baseurl }}/assets/images/lab12/pc2-ipconfig.png)
 
 ### PC3
 
@@ -70,7 +70,7 @@ PC3 was configured correctly.
 - Subnet Mask: `255.255.255.0`
 - Default Gateway: `192.168.1.1`
 
-![PC3 ipconfig](/assets/images/lab12/pc3-ipconfig.png)
+![PC3 ipconfig output showing a valid address on the 192.168.1.0 network.]({{ site.baseurl }}/assets/images/lab12/pc3-ipconfig.png)
 
 ### PC4
 
@@ -80,7 +80,7 @@ PC4 also matched the expected configuration.
 - Subnet Mask: `255.255.255.0`
 - Default Gateway: `192.168.1.1`
 
-![PC4 ipconfig](/assets/images/lab12/pc4-ipconfig.png)
+![PC4 ipconfig output showing a valid address on the 192.168.1.0 network.]({{ site.baseurl }}/assets/images/lab12/pc4-ipconfig.png)
 
 ## Correcting the Misconfiguration
 
@@ -98,13 +98,13 @@ to:
 
 The subnet mask, default gateway, and DNS server were already correct and did not require any changes.
 
-![Corrected IP Configuration](/assets/images/lab12/pc2-ip-fix.png)
+![PC2 corrected with the static IPv4 address 192.168.1.102.]({{ site.baseurl }}/assets/images/lab12/pc2-ip-fix.png)
 
 ## Results
 
 After correcting the IPv4 address, Packet Tracer immediately recognized the repair and marked the lab as successfully completed.
 
-![Completed Activity](/assets/images/lab12/lab12-results.png)
+![Packet Tracer results confirming successful completion of the activity.]({{ site.baseurl }}/assets/images/lab12/lab12-results.png)
 
 ## Key Takeaways
 
