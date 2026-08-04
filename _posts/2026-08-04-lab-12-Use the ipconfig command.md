@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Packet Tracer Lab 12 - Use the ipconfig Command"
 date: 2026-08-04
 categories:
