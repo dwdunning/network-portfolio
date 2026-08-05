@@ -73,7 +73,7 @@ The wireless adapter successfully authenticated with the access point using WPA2
 
 After reconnecting the client with the new wireless security settings, Packet Tracer successfully validated the activity and confirmed completion.
 
-![Activity completed successfully.]({{ site.baseurl }}/assets/images/lab18/image(20260805-192708).png)
+![Activity completed successfully.]({{ site.baseurl }}/assets/images/lab18/results.png)
 
 ## Key Takeaways
 
