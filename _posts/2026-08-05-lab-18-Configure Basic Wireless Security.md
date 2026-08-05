@@ -23,7 +23,7 @@ This lab focused on improving wireless network security by configuring **WPA2 Pe
 
 The provided Packet Tracer activity consisted of a laptop connected wirelessly to a home wireless router with Internet connectivity to a simulated web server.
 
-![Packet Tracer topology.]({{ site.baseurl }}/assets/images/lab18/topology(7).png)
+![Packet Tracer topology.]({{ site.baseurl }}/assets/images/lab18/topology.png)
 
 ## Initial Router Configuration
 
