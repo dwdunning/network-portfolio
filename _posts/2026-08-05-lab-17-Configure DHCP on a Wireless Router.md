@@ -2,7 +2,7 @@
 layout: post
 title: "Packet Tracer Lab 17 - Configure DHCP on a Wireless Router"
 date: 2026-08-05
-categories: [Networking, Cisco, Packet Tracer, Module-14-DHCP]
+categories: [Networking, Cisco, Packet Tracer, Module-14-Network Communications Protocols]
 tags: [networking, cisco, packet tracer, dhcp, wireless router, ipv4]
 ---
 
@@ -20,7 +20,7 @@ This lab focused on configuring and verifying DHCP services on a consumer wirele
 
 ## Initial Topology
 
-The activity began with a DHCP-enabled wireless router and three PCs connected using copper straight-through cables.
+The activity began with a DHCP-enabled wireless router that we connected to three PCs using copper straight-through cables.
 
 ![Initial network topology.]({{ site.baseurl }}/assets/images/lab17/initial-topology.png)
 
