@@ -18,7 +18,7 @@ The activity combined a home office, central office, and branch office connected
 
 The completed Packet Tracer topology is shown below.
 
-![Packet Tracer network representation topology.]({{ site.baseurl }}/assets/images/lab26/network-topology.png)
+![Packet Tracer network representation topology.]({{ site.baseurl }}/assets/images/lab26/topology.png)
 
 ---
 
