@@ -22,7 +22,7 @@ The lab required me to:
 - Configure the required interfaces
 - Verify end-to-end connectivity
 
-![Lab 29 Network Topology](/assets/images/lab29/topology.png)
+![Lab 29 Network Topology]({{ '/assets/images/lab29/topology.png' | relative_url }})
 
 ## Part 1 - Examine the Network Requirements
 

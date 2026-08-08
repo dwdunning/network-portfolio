@@ -207,7 +207,7 @@ The PCs could then communicate across their respective IPv6 networks through R1 
 
 The final Packet Tracer assessment confirmed that the addressing, host configuration, interfaces, and routing were all configured correctly.
 
-![Packet Tracer Lab 31 completed with a score of 42 out of 42](/assets/images/lab31/results.png)
+![Packet Tracer Lab 31 completed with a score of 42 out of 42]({{ '/assets/images/lab31/results.png' | relative_url }})
 
 The final results were:
 

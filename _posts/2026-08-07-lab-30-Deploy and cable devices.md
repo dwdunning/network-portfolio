@@ -84,7 +84,7 @@ After allowing the switches time to initialize their ports, the link indicators 
 
 The final network contained all six PCs connected to their respective switches, with the two switches connected through their GigabitEthernet interfaces.
 
-![Completed Packet Tracer topology showing six PCs and two Cisco 2960 switches](/assets/images/lab30/final-topology.png)
+![Completed Packet Tracer topology showing six PCs and two Cisco 2960 switches]({{ '/assets/images/lab30/final-topology.png' | relative_url }})
 
 All of the visible link indicators were green, confirming that the physical connections were operational.
 
@@ -131,7 +131,7 @@ This reflects a common network design in which end devices connect to switch acc
 
 After completing the topology, Packet Tracer's activity assessment confirmed that the required connections and cable types were correct.
 
-![Packet Tracer activity results showing successful completion](/assets/images/lab30/results.png)
+![Packet Tracer activity results showing successful completion]({{ '/assets/images/lab30/results.png' | relative_url }})
 
 The final assessment reported:
 
