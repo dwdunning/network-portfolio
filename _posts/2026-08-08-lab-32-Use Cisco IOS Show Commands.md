@@ -409,7 +409,7 @@ This separation helps protect router configuration information and administrativ
 
 The Packet Tracer activity was completed successfully.
 
-![Packet Tracer Lab 32 completion results](/assets/images/lab32/results.png)
+![Packet Tracer Lab 32 completion results](/assets/images/lab32/results.png)![Packet Tracer Lab 32 completion results]({{ '/assets/images/lab32/results.png' | relative_url }})
 
 Packet Tracer reported:
 
